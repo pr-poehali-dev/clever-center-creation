@@ -76,16 +76,16 @@ const Programs = () => {
       <main className="flex-grow">
         <section className="py-12 md:py-16 bg-muted/30">
           <div className="container">
-            <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">Программы обучения</h1>
+            <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">Образовательные программы</h1>
             <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-12">
-              Детский центр "Clever" предлагает широкий выбор программ подготовки к школе, 
-              которые помогут вашему ребенку приобрести необходимые знания и навыки.
+              Образовательный центр "Clever" разработал уникальные программы для всестороннего развития детей
+              и эффективной подготовки к школьной жизни.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <ProgramCard 
-                title="Полная подготовка к школе" 
-                description="Комплексная программа, включающая обучение чтению, письму, математике и развитие логики."
+                title="Комплексная подготовка к школе" 
+                description="Эффективная методика, охватывающая все ключевые аспекты развития: чтение, письмо, счёт и логика."
                 icon={<BookOpen className="h-5 w-5" />}
                 age="5-7 лет"
                 duration="45 минут"
@@ -95,8 +95,8 @@ const Programs = () => {
               />
               
               <ProgramCard 
-                title="Развитие речи" 
-                description="Программа, направленная на развитие речи, пополнение словарного запаса и формирование навыков общения."
+                title="Развитие речи и общения" 
+                description="Профессиональная методика по обогащению словарного запаса, развитию речи и навыков коммуникации."
                 icon={<Users className="h-5 w-5" />}
                 age="4-6 лет"
                 duration="40 минут"
@@ -106,8 +106,8 @@ const Programs = () => {
               />
               
               <ProgramCard 
-                title="Логика и мышление" 
-                description="Развитие логического мышления, внимания, памяти и пространственного воображения."
+                title="Развитие логики и мышления" 
+                description="Интерактивный курс для развития интеллекта, внимания, памяти и творческого мышления."
                 icon={<Brain className="h-5 w-5" />}
                 age="5-7 лет"
                 duration="45 минут"
@@ -117,8 +117,8 @@ const Programs = () => {
               />
               
               <ProgramCard 
-                title="Обучение чтению" 
-                description="Специализированная программа для обучения ребенка навыкам чтения с использованием современных методик."
+                title="Быстрое чтение" 
+                description="Авторская методика, которая научит вашего ребенка читать быстро, понимая и запоминая прочитанное."
                 icon={<BookText className="h-5 w-5" />}
                 age="4-7 лет"
                 duration="40 минут"
@@ -128,8 +128,8 @@ const Programs = () => {
               />
               
               <ProgramCard 
-                title="Математика для дошкольников" 
-                description="Изучение основ математики, счета, геометрических фигур и решения простых задач."
+                title="Занимательная математика" 
+                description="Увлекательный курс математики с игровыми элементами для формирования прочных основ счета и логики."
                 icon={<Calculator className="h-5 w-5" />}
                 age="5-7 лет"
                 duration="40 минут"
@@ -139,8 +139,8 @@ const Programs = () => {
               />
               
               <ProgramCard 
-                title="Общее развитие" 
-                description="Программа для всестороннего развития ребенка, включающая элементы творчества, познания мира и социализации."
+                title="Креативное развитие" 
+                description="Уникальный курс, совмещающий творчество, познание окружающего мира и развитие социальных навыков."
                 icon={<Lightbulb className="h-5 w-5" />}
                 age="4-6 лет"
                 duration="45 минут"
@@ -154,33 +154,33 @@ const Programs = () => {
         
         <section className="py-12 bg-background">
           <div className="container">
-            <h2 className="text-2xl font-bold mb-6">Формат занятий</h2>
+            <h2 className="text-2xl font-bold mb-6">Форматы обучения</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
               <div className="bg-muted/30 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-4">Групповые занятия</h3>
                 <ul className="space-y-3 list-disc pl-5">
-                  <li>Максимум 8 детей в группе</li>
-                  <li>Развитие навыков общения и командной работы</li>
-                  <li>Доступная стоимость</li>
+                  <li>Небольшие группы до 8 детей</li>
+                  <li>Развитие коммуникативных навыков и социализации</li>
+                  <li>Выгодные тарифы</li>
                   <li>Продолжительность: 45 минут</li>
-                  <li>Возможность выбора удобного времени</li>
+                  <li>Расписание на выбор</li>
                 </ul>
                 <div className="mt-6">
-                  <Button>Записаться на групповое занятие</Button>
+                  <Button>Записаться в группу</Button>
                 </div>
               </div>
               
               <div className="bg-muted/30 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-4">Индивидуальные занятия</h3>
                 <ul className="space-y-3 list-disc pl-5">
-                  <li>Персональное внимание преподавателя</li>
-                  <li>Обучение в удобном для ребенка темпе</li>
-                  <li>Учет индивидуальных особенностей</li>
+                  <li>100% внимания педагога</li>
+                  <li>Адаптация темпа под ребенка</li>
+                  <li>Персонализированный подход</li>
                   <li>Продолжительность: 40 минут</li>
-                  <li>Гибкий график занятий</li>
+                  <li>Гибкое расписание</li>
                 </ul>
                 <div className="mt-6">
-                  <Button>Записаться на индивидуальное занятие</Button>
+                  <Button>Записаться на персональное занятие</Button>
                 </div>
               </div>
             </div>
