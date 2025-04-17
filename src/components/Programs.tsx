@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { BookOpen, Brain, Users, Clock } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const ProgramCard = ({ 
   title, 
@@ -106,7 +107,7 @@ const Programs = () => {
         
         <div className="text-center mt-10">
           <Button size="lg" variant="outline" asChild>
-            <a href="/programs">Все программы</a>
+            <Link to="/programs">Все программы</Link>
           </Button>
         </div>
       </div>
